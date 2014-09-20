@@ -40,3 +40,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 
 gem 'rails_admin'                   # Pretty cool free admin
+

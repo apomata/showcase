@@ -1,4 +1,21 @@
 Rails.application.routes.draw do
+
+  get 'project/new'
+
+  get 'project/edit'
+
+  get 'project/destroy'
+
+  get 'project/display'
+
+  get 'user/create'
+
+  get 'user/edit'
+
+  get 'user/destroy'
+
+  get 'user/display'
+
   get 'gallery/projects'
 
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
